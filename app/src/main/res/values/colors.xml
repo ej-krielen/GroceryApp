@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF5722</color>
+
+    <color name="colorPrimaryLight">#7986CB</color>
+    <color name="colorBackground">#FAFAFA</color>
+    <color name="colorBackgroundLight">#DDDDDD</color>
+    <color name="cardBackgroundLight">#FAFAFA</color>
+
+    <color name="colorCheapest">#8BC34A</color>
+    <color name="colorCheapestBorder">#9F43A047</color>
+
+
+    <color name="text_background_color">#FFFFFF</color>
+    <color name="text_color">#000000</color>
+
+    <color name="edit_text_color">?attr/editTextColor</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="white_hint">#B3FFFFFF</color>
+
+    <color name="transparent">#00FFFFFF</color>
+</resources>

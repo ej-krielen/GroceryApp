@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Grocery App</string>
+
+    <!-- Labels -->
+    <string name="label_store">Store</string>
+    <string name="label_price">Price</string>
+    <string name="label_unit">Unit</string>
+    <string name="label_unit_price">Price for\n 1 unit</string>
+    <string name="label_compare_discount">Compare with discount</string>
+    <string name="label_edit_list">Edit list</string>
+    <string name="label_add_item">Add item</string>
+
+    <!-- Menu-->
+    <string name="action_edit_stores">Edit stores</string>
+    <string name="action_shopping_list">Shopping list</string>
+    <string name="action_add_store">Add a store</string>
+    <string name="action_add_category">Add a category</string>
+    <string name="action_add_grocery">Add a grocery item</string>
+    <string name="action_about">About</string>
+    <string name="action_tip">Tip the dev</string>
+
+    <!-- Error -->
+    <string name="error_empty">Field may not be empty</string>
+    <string name="error_not_unique">Input must be unique</string>
+    <string name="error_list_is_empty">WARNING!\n\nThis list appears to be empty.\n\nBecause of this certain part of the app will not be working correctly.</string>
+    <string name="error_no_stores">If you are reading this then the list of stores is empty.\n\nThis app can not function without a list of stores.\n\nLook at the top of your screen and click Edit Stores to start adding some.</string>
+    <string name="error_no_categories">If you are reading this then the list of categories is empty.\n\nThis app can not function without a list of categories.\n\nAdd a category (such as meat or vegetables) with the button above, and add items to it after.</string>
+    <string name="error_no_items">None of your categories seem to have items in them.\n\nBegin adding items with the button labeled add item and fill in the form.</string>
+    <string name="error_add_item_no_categories">Please first add at least one category before adding an item.</string>
+    <!-- Edit order -->
+    <string name="up_button_label">Λ</string>
+    <string name="down_button_label">v</string>
+
+    <!-- Grocery data  -->
+    <string name="no_data">No data</string>
+    <string name="unit_price">Price for\n %.0f %s</string>
+
+    <!-- Add to list -->
+    <string name="atl_add_cheapest">Add cheapest</string>
+    <string name="atl_add_select_store">Select store to add</string>
+
+    <!--Dialog-->
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_done">Done</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+    <string name="dialog_confirm_delete">Confirm, delete</string>
+    <string name="error_no_such_value">The following value was not found:\u0020</string>
+    <string name="error_low_unit_input">Amount of units is less than the divider, this may give strange prices per unit.</string>
+    <string name="dialog_delete">Are you sure you want to delete\u0020</string>
+    <string name="delete_all_sub_categories">, and all items in this category?</string>
+    <!--About dialog    -->
+    <string name="dialog_about_info">To learn more about the app, and its developer, please visit the website.</string>
+    <string name="dialog_about_info_title">About</string>
+    <string name="dialog_about_ok">Go to website</string>
+    <!--Tip dialog    -->
+    <string name="tip_dialog_title">Tip the developer</string>
+    <string name="tip_dialog_select">Select your amount\n \nAmount is before taxes, total price in your currency is displayed next to it.</string>
+    <string name="tip_dialog_five">€5,-</string>
+    <string name="tip_dialog_ten">€10,-</string>
+    <!-- Change prize-->
+    <string name="change_prize_dialog_title">Change prize</string>
+    <string name="change_units_dialog_title">Change units</string>
+    <!-- Add Grocery Dialog    -->
+    <string name="agd_name_hint">Name</string>
+    <string name="agd_category_hint">Category:</string>
+    <string name="agd_unit_hint">Unit (gram, kilo, piece, box, etc)</string>
+    <string name="agd_unit_divider_default">1</string>
+    <string name="agd_unit_divider_hint">Calculate price by multitude of units. For example calculate price by 100 gram (instead of per gram)</string>
+    <!--Edit Grocery Dialog  -->
+    <string name="egd_edit_grocery">Edit grocery item</string>
+    <string name="egd_divider_label">Divider</string>
+    <string name="egd_delete">Permanently delete this item</string>
+    <string name="egd_delete_confirm">Are you sure you want to permanently delete this item?</string>
+
+    <!-- Shopping list -->
+    <string name="sl_ga_header">This item is currently on your list:\n</string>
+    <string name="sl_ga_row">%s time(s) at %s\n</string>
+    <string name="sl_error_empty">Currently your shopping list is empty.\nAdd some items and check again.</string>
+    <string name="sl_name_and_amount">%sx %s</string>
+    <string name="sl_dialog_delete_shop">Are you sure you want to remove\u0020</string>
+    <string name="sl_delete_all_items">, and all items from the shopping list?</string>
+    <string name="sl_delete_item">Are you sure you want to remove %s from the shopping list?</string>
+    <string name="sl_dialog_title">Add to shopping list</string>
+    <string name="sl_dialog_message">Add %s to shopping list under store:</string>
+    <string name="slc_dialog_title">Compare</string>
+
+</resources>
